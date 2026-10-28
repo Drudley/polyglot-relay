@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – Polyglot Relay</title>
+<meta name="description" content="Privacy Policy for Polyglot Relay, a translation app for Discord.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><a class="brand" href="index.html">Polyglot Relay</a>
+<nav><a href="index.html#features">Features</a><a href="index.html#pricing">Plans</a><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a></nav></header>
+<main class="doc">
+<h1>Polyglot Relay – Privacy Policy</h1>
+<p><strong>Last updated: 28 October 2026</strong></p>
+<p>This policy explains what personal data <strong>Polyglot Relay</strong> (the "Bot") and its website process, why we process it, how long we keep it, and what rights you have under the EU General Data Protection Regulation (GDPR).</p>
+<h2>1. Who is responsible</h2>
+<p>The controller is <strong>Niklas Bergström</strong>, a sole trader (enskild näringsidkare) based in Umeå, Sweden.
+Contact for privacy questions and requests: <strong><a href="mailto:drudleybot+polyglot@mail.grokbot.com">drudleybot+polyglot@mail.grokbot.com</a></strong></p>
+<h2>2. The short version</h2>
+<ul>
+<li><strong>We do not store the content of your messages.</strong> Message text is held in memory only for the few seconds it takes to translate it and post the translation. It is never written to our database or logs.</li>
+<li>We store only what the Bot needs to work: Discord IDs (for servers, channels, messages, and webhooks), server settings, glossary terms, and monthly character counts.</li>
+<li>Translation runs on a <strong>LibreTranslate engine that we host ourselves</strong> in Sweden. It does not send your text to any third party.</li>
+<li>Payments are handled entirely by <strong>Discord</strong>. We never see your card details.</li>
+<li>We do not sell your data, and we do not use it for advertising, profiling, or training AI models.</li>
+</ul>
+<h2>3. What we process and why</h2>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Data</th>
+<th>When</th>
+<th>Purpose</th>
+<th>Legal basis (GDPR art. 6)</th>
+<th>How long</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Message text</strong>, and in automatic translation also the author's display name and avatar</td>
+<td>When a message is translated: by a command, a flag reaction, or an auto-translate channel pair</td>
+<td>To translate it and post the translation. With "post as speaker" (Premium), the translation is posted under the author's name and avatar</td>
+<td>Legitimate interest (6(1)(f)) in providing the translation that the server or user asked for. For Premium subscribers, also contract (6(1)(b))</td>
+<td><strong>Not stored.</strong> In memory only while the translation is processed (usually seconds)</td>
+</tr>
+<tr>
+<td><strong>Server settings</strong>: server ID, flag-reaction on/off, webhook mode, edit sync, translation of other bots</td>
+<td>When an admin changes a setting</td>
+<td>To run the Bot as configured</td>
+<td>Legitimate interest / contract</td>
+<td>Until the Bot is removed from the server</td>
+</tr>
+<tr>
+<td><strong>Channel pairs</strong>: server ID, source and target channel IDs, target language</td>
+<td>When an admin sets up auto-translation</td>
+<td>To know where to post translations</td>
+<td>Legitimate interest / contract</td>
+<td>Until the pair is removed or the Bot leaves the server</td>
+</tr>
+<tr>
+<td><strong>Glossary terms</strong> entered by admins (Premium)</td>
+<td>When an admin adds terms</td>
+<td>To translate names and terms consistently</td>
+<td>Legitimate interest / contract</td>
+<td>Until deleted or the Bot leaves the server</td>
+</tr>
+<tr>
+<td><strong>Usage counters</strong>: server ID (or, for personal installs, your user ID), month, engine, number of characters translated</td>
+<td>Each translation</td>
+<td>To apply free-plan limits and Premium fair use, and to prevent abuse</td>
+<td>Legitimate interest (6(1)(f))</td>
+<td><strong>13 months</strong> (the current month plus the 12 before it), then deleted automatically</td>
+</tr>
+<tr>
+<td><strong>Webhook credentials</strong>: channel ID, webhook ID and token, server ID</td>
+<td>When "post as speaker" is used (Premium)</td>
+<td>To post translations under the speaker's name</td>
+<td>Contract</td>
+<td>Until the Bot leaves the server</td>
+</tr>
+<tr>
+<td><strong>Message links</strong>: original message ID, translated message ID and channel ID, time</td>
+<td>When edit/delete sync is enabled</td>
+<td>To update or remove translations when the original is edited or deleted</td>
+<td>Legitimate interest / contract</td>
+<td><strong>72 hours</strong>, then deleted automatically</td>
+</tr>
+<tr>
+<td><strong>Premium status</strong> (entitlements) for a server, as reported by Discord</td>
+<td>When Premium features are used</td>
+<td>To check whether a server has Premium</td>
+<td>Contract</td>
+<td>In memory only, for up to 10 minutes</td>
+</tr>
+<tr>
+<td><strong>Technical logs</strong>: error messages, server IDs, and counts. No message text</td>
+<td>During operation</td>
+<td>Security and troubleshooting</td>
+<td>Legitimate interest</td>
+<td>Overwritten automatically after a few days to weeks (logs are capped at 30 MB)</td>
+</tr>
+</tbody>
+</table></div>
+<p>The Bot also receives other data from Discord that it needs in order to function, such as user IDs and your Discord language setting (used to pick a translation language). This data is processed in memory only, and it is not stored.</p>
+<p>Glossary terms are written by server admins. Please don't put personal data in them that isn't needed.</p>
+<h2>4. Who processes your data</h2>
+<ul>
+<li><strong>Discord</strong> (Discord Inc. and its affiliates) delivers all messages and commands to the Bot, and handles Premium purchases, billing, and refunds. Discord acts as an independent controller under its own Privacy Policy (<a href="https://discord.com/privacy">discord.com/privacy</a>). We receive only an entitlement record showing that a server has Premium. We do not receive payment details.</li>
+<li><strong>Self-hosted translation engine.</strong> LibreTranslate runs on our own equipment in Sweden, together with the Bot and its database. No third party gets access to the text you translate.</li>
+<li><strong>AI translation provider (Premium only, optional, not active today).</strong> In the future, Premium may use an external AI translation provider as our sub-processor (processor under GDPR art. 28). Before we turn this on, we will name the provider, its location, and the transfer safeguards it uses in this policy, at least 14 days in advance. If the provider is outside the EU/EEA, the transfer will rely on an adequacy decision or the EU Standard Contractual Clauses. The provider will be bound not to use the text to train its models. Free-plan translation will keep using our self-hosted engine.</li>
+<li><strong>Website hosting.</strong> The Polyglot Relay website is a static site. It uses no cookies, analytics, or trackers. The hosting provider (GitHub Pages, operated by GitHub Inc.) processes visitors' IP addresses to deliver the pages and to protect against abuse, as described in GitHub's privacy statement.</li>
+</ul>
+<p>We do not sell or share your personal data with anyone else, unless the law requires us to.</p>
+<h2>5. Your rights</h2>
+<p>Under the GDPR you have the right to:</p>
+<ul>
+<li>access the personal data we hold about you,</li>
+<li>have it corrected,</li>
+<li>have it deleted,</li>
+<li>restrict its processing,</li>
+<li>receive it in a portable format (data portability),</li>
+<li><strong>object</strong> to processing based on legitimate interest.</li>
+</ul>
+<p>To use these rights, email <strong><a href="mailto:drudleybot+polyglot@mail.grokbot.com">drudleybot+polyglot@mail.grokbot.com</a></strong> and include your Discord user ID or server ID. We will reply within one month.</p>
+<p>You can also stop the processing yourself:</p>
+<ul>
+<li><strong>Server admins:</strong> remove the Bot from the server, or remove channel pairs with <code>/autotranslate</code>.</li>
+<li><strong>Users with a personal install:</strong> remove the app under User Settings → Authorized Apps.</li>
+</ul>
+<p>Note that most of what we store is linked to servers and channels, not to individual people. Message text is never stored.</p>
+<p>You have the right to lodge a complaint with the Swedish Authority for Privacy Protection (<strong>Integritetsskyddsmyndigheten, IMY</strong>), <a href="https://www.imy.se">www.imy.se</a>, or with the supervisory authority in your own EU country.</p>
+<h2>6. Security</h2>
+<ul>
+<li>The Bot, its database, and the translation engine run in isolated containers. None of them is exposed directly to the internet.</li>
+<li>Access is limited to the operator.</li>
+<li>The Bot's credentials are stored with restricted file permissions.</li>
+<li>Webhook tokens are used only to post translations in the channel they belong to.</li>
+</ul>
+<h2>7. Automated decisions and children</h2>
+<p>The Bot does not make decisions that have legal or similarly significant effects on you.</p>
+<p>The Bot is not directed at children. You must meet Discord's minimum age requirement in your country to use Discord and the Bot.</p>
+<h2>8. Changes</h2>
+<p>If we change this policy, we will publish the new version on the Polyglot Relay website with a new "Last updated" date. If the change is material, for example adding a new sub-processor, we will announce it at least 14 days in advance on the website and in the Bot's <code>/help</code> command.</p>
+<h2>9. Contact</h2>
+<p>Niklas Bergström (sole trader), Umeå, Sweden – <strong><a href="mailto:drudleybot+polyglot@mail.grokbot.com">drudleybot+polyglot@mail.grokbot.com</a></strong></p>
+</main>
+<footer>© 2026 Niklas Bergström (sole trader), Umeå, Sweden · <a href="terms.html">Terms</a> · <a href="privacy.html">Privacy</a><br>Not affiliated with or endorsed by Discord.</footer>
+</body>
+</html>
